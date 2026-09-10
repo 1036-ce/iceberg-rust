@@ -3732,7 +3732,7 @@ dependencies = [
  "moka",
  "murmur3",
  "once_cell",
- "ordered-float 4.6.0",
+ "ordered-float",
  "parquet",
  "pretty_assertions",
  "rand 0.9.5",
@@ -3921,7 +3921,7 @@ dependencies = [
  "iceberg-catalog-rest",
  "iceberg-storage-opendal",
  "iceberg_test_utils",
- "ordered-float 2.10.1",
+ "ordered-float",
  "parquet",
  "tokio",
  "uuid",
@@ -5344,15 +5344,6 @@ checksum = "04744f49eae99ab78e0d5c0b603ab218f515ea8cfe5a456d7629ad883a3b6e7d"
 
 [[package]]
 name = "ordered-float"
-version = "2.10.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "68f19d67e5a2795c94e73e0bb1cc1a7edeb2e28efd39e2e1c9b7a40c1108b11c"
-dependencies = [
- "num-traits",
-]
-
-[[package]]
-name = "ordered-float"
 version = "4.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7bb71e1b3fa6ca1c61f383464aaf2bb0e2f8e772a1f01d486832464de363b951"
@@ -5542,7 +5533,7 @@ dependencies = [
  "integer-encoding",
  "lazy_static",
  "linkedbytes",
- "ordered-float 4.6.0",
+ "ordered-float",
  "paste",
  "serde",
  "smallvec",
